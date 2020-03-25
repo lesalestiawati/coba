@@ -1,0 +1,28 @@
+<?php
+echo "Menghitung Jumlah Bilangan Ganjil Genap" ;
+$sorting = array(90,56,11,13,90);
+$z=0;
+print_r($sorting);
+
+$i=0;
+$x=0;
+$n = count($sorting);
+
+for($i; $i<$n; $i++){
+if($sorting[$i] % 2 == 0 ){
+$z++;
+} else {
+$x++;
+}
+}
+echo "<br>";
+echo " Bil Genap $z";
+echo " Bil Ganjil $x";
+?>
+
+
+
+
+
+https://www.rajaputramedia.com/artikel/script-php-menghitung-total-bayar.php
+http://anggun43ana.blogspot.com/2014/06/aplikasi-menghitung-nilai-dari-checkbox.html
